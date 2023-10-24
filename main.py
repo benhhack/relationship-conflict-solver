@@ -16,7 +16,7 @@ receiver_no = os.environ.get("RECEIVER")
 
 message = client.messages \
     .create(
-         body='Hey Slim, this is your dog pic bot (revived). Its given me something to do today and I\'m grateful for that. I hope you enjoy. \nI love and miss you lots,\nBenji\n\nP.S. Don\'t reply to this number I won\'t get it',
+         body='This was a soppy intro message I wrote. Write you own soppy message here!',
          from_=twilio_no,
          to=receiver_no
      )
